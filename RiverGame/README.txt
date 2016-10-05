@@ -1,0 +1,3 @@
+Author: Cole Miller
+
+The River Game (Farmer's Game) is a strategy/puzzle game in which the user has to bring all of the 3 items over to the other side of the river. There is only one spot on the raft and if certain items/animals are left with each other on one side, one of them may be eaten. The user is given a visual display of the items and the river and uses type inputs to bring everything to one side. 
