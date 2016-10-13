@@ -157,6 +157,23 @@ public static int checkWinner()
 		else if (game == 4)
 			System.out.print("Nice job! Everything made it to the other side with no harm. You win!");
 	}
+
+	public static String screenUserInput(Scanner kb)
+	{
+		String input = kb.nextline();
+		if(input.length()>1)
+		{
+			System.out.println("Your input length is greater than 1");
+			return screenUserInput(kb);
+		}
+		else if(!input.equals("C")) && !input.equals("S") && !input.equals("C") && !input.equals("H")){
+			
+			System.out.println("Only C, S, W, and H are valid inputs");
+			System.out.print("Please re-enter: ");
+			return screenUserInput(kb);
+		}
+		return input; 
+	}
 }
 		
 
